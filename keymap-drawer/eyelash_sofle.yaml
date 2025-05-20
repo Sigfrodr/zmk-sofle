@@ -16,42 +16,42 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-tab$$
   - Q
-  - C
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:arrow-down-bold$$
+  - Y
+  - U
+  - I
   - O
   - P
-  - W
-  - $$mdi:arrow-down-bold$$
-  - J
-  - M
-  - D
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Y
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
-  - E
-  - N
+  - D
   - F
+  - G
   - $$mdi:arrow-left-bold$$
+  - H
+  - J
+  - K
   - L
-  - R
-  - T
-  - I
-  - U
+  - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
-  - {t: '-', s: _}
+  - C
   - V
   - B
   - $$mdi:arrow-right-bold$$
-  - .
-  - H
-  - G
+  - N
+  - M
   - {t: ',', s: <}
-  - K
+  - .
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - LGUI
