@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
-  - '2'
+  - AltGr
   - $$mdi:apple-keyboard-option$$
   - RGUI
   Nav:
@@ -87,9 +87,9 @@ layers:
   - PgUp
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -100,10 +100,10 @@ layers:
   - PgDn
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - KP MINUS
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP 0
+  - '4'
+  - {t: '5', s: '%'}
+  - '6'
+  - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
@@ -112,11 +112,11 @@ layers:
   - RGB SAI
   - $$mdi:keyboard-tab-reverse$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - KP COMMA
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
+  - {t: ',', s: <}
+  - '1'
+  - '2'
+  - '3'
+  - .
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '2':
+  AltGr:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -159,15 +159,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
-  - KP LEFT PARENTHESIS
-  - KP RIGHT PARENTHESIS
+  - (
+  - )
   - '}'
-  - KP EQUAL
+  - {t: '=', s: +}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: \, s: '|'}
   - +
   - KP MINUS
-  - {t: /, s: '?'}
+  - KP SLASH
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
