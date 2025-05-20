@@ -67,11 +67,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans          &trans                &trans                 &trans      &trans         &mmv MOVE_UP     &trans         &trans         &trans        &trans        &trans             &trans
-&trans  &kp CARET       &kp LESS_THAN         &kp GREATER_THAN       &kp DOLLAR  &kp PERCENT    &mmv MOVE_DOWN   &kp AT_SIGN    &kp AMPERSAND  &kp ASTERISK  &kp SQT       &kp GRAVE          &trans
-&trans  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RBRC    &kp EQUAL      &mmv MOVE_LEFT   &kp BACKSLASH  &kp PLUS       &kp KP_MINUS  &kp KP_SLASH  &kp DOUBLE_QUOTES  &trans
-&trans  &kp TILDE       &kp LBKT              &kp RBKT               &kp UNDER   &kp POUND      &mmv MOVE_RIGHT  &kp PIPE       &kp EXCL       &kp SEMI      &kp COLON     &kp QMARK          &trans
-&none   &trans          &trans                &trans                 &trans      &trans         &mkp LCLK        &trans         &trans         &trans        &trans        &trans
+&trans  &trans          &trans                &trans                    &trans      &trans         &mmv MOVE_UP     &trans         &trans         &trans        &trans        &trans             &trans
+&trans  &kp CARET       &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp DOLLAR  &kp PERCENT    &mmv MOVE_DOWN   &kp AT_SIGN    &kp AMPERSAND  &kp ASTERISK  &kp SQT       &kp GRAVE          &trans
+&trans  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp RBRC    &kp EQUAL      &mmv MOVE_LEFT   &kp BACKSLASH  &kp PLUS       &kp KP_MINUS  &kp KP_SLASH  &kp DOUBLE_QUOTES  &trans
+&trans  &kp TILDE       &kp LBKT              &kp RBKT                  &kp UNDER   &kp POUND      &mmv MOVE_RIGHT  &kp PIPE       &kp EXCL       &kp SEMI      &kp COLON     &kp QMARK          &trans
+&none   &trans          &trans                &trans                    &trans      &trans         &mkp LCLK        &trans         &trans         &trans        &trans        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
