@@ -54,11 +54,11 @@
 
         layer_1 {
             bindings = <
-&trans           &kp F1           &kp F2           &kp F3           &kp F4           &kp F5           &mmv MOVE_UP     &kp F6     &kp F7        &kp F8        &kp F9        &kp F10       &trans
-&trans           &kp TAB          &kp HOME         &kp UP_ARROW     &kp END          &kp PAGE_UP      &mmv MOVE_DOWN   &kp SLASH  &kp N7        &kp N8        &kp N9        &none         &trans
-&trans           &kp CAPS         &kp LEFT         &kp DOWN_ARROW   &kp RIGHT        &kp PAGE_DOWN    &mmv MOVE_LEFT   &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NUMBER_0  &trans
-&trans           &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &kp LS(TAB)      &mmv MOVE_RIGHT  &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &trans
-&rgb_ug RGB_TOG  &trans           &trans           &trans           &trans           &trans           &mkp LCLK        &trans     &trans        &trans        &trans        &trans
+&trans           &kp F1           &kp F2           &kp F3           &kp F4           &kp F5           &mmv MOVE_UP     &kp F6        &kp F7           &kp F8           &kp F9           &kp F10          &trans
+&trans           &kp TAB          &kp HOME         &kp UP_ARROW     &kp END          &kp PAGE_UP      &mmv MOVE_DOWN   &kp KP_SLASH  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none            &trans
+&trans           &kp CAPS         &kp LEFT         &kp DOWN_ARROW   &kp RIGHT        &kp PAGE_DOWN    &mmv MOVE_LEFT   &kp KP_MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0  &trans
+&trans           &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &kp LS(TAB)      &mmv MOVE_RIGHT  &kp KP_COMMA  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &trans
+&rgb_ug RGB_TOG  &trans           &trans           &trans           &trans           &trans           &mkp LCLK        &trans        &trans           &trans           &trans           &trans
             >;
 
             display-name = "Nav";
@@ -67,11 +67,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans          &trans    &trans    &trans      &trans         &mmv MOVE_UP     &trans         &trans           &trans         &trans     &trans             &trans
-&trans  &kp CARET       &kp LT    &kp GT    &kp DOLLAR  &kp PERCENT    &mmv MOVE_DOWN   &kp AT_SIGN    &kp AMPERSAND    &kp ASTERISK   &kp SQT    &kp GRAVE          &trans
-&trans  &kp LEFT_BRACE  &kp LPAR  &kp RPAR  &kp RBRC    &kp EQUAL      &mmv MOVE_LEFT   &kp BACKSLASH  &kp PLUS         &kp MINUS      &kp SLASH  &kp DOUBLE_QUOTES  &trans
-&trans  &kp TILDE       &kp LBKT  &kp RBKT  &kp UNDER   &kp HASH       &mmv MOVE_RIGHT  &kp PIPE       &kp EXCLAMATION  &kp SEMICOLON  &kp COLON  &kp QUESTION       &trans
-&none   &trans          &trans    &trans    &trans      &trans         &mkp LCLK        &trans         &trans           &trans         &trans     &trans
+&trans  &trans          &trans                   &trans                    &trans      &trans          &mmv MOVE_UP     &trans         &trans         &trans         &trans     &trans             &trans
+&trans  &kp CARET       &kp LT                   &kp GT                    &kp DOLLAR  &kp PERCENT     &mmv MOVE_DOWN   &kp AT         &kp AMPERSAND  &kp ASTERISK   &kp SQT    &kp GRAVE          &trans
+&trans  &kp LEFT_BRACE  &kp KP_LEFT_PARENTHESIS  &kp KP_RIGHT_PARENTHESIS  &kp RBRC    &kp KP_EQUAL    &mmv MOVE_LEFT   &kp BACKSLASH  &kp PLUS       &kp KP_MINUS   &kp SLASH  &kp DOUBLE_QUOTES  &trans
+&trans  &kp TILDE       &kp LBKT                 &kp RBKT                  &kp UNDER   &kp HASH        &mmv MOVE_RIGHT  &kp PIPE       &kp EXCL       &kp SEMICOLON  &kp COLON  &kp QUESTION       &trans
+&none   &trans          &trans                   &trans                    &trans      &trans          &mkp LCLK        &trans         &trans         &trans         &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
